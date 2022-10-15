@@ -1,0 +1,76 @@
+.drag_area {
+    border: 5px dashed #ddd;
+    height: 500px;
+    width: 700px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drag_area.active {
+    background-color: #b8d4fe;
+    color: black;
+    border: 2px dashed #618ac9;
+}
+
+.drag_area h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+}
+
+.drag_area span {
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+}
+
+.drag_area button {
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    background-color: #5256ad;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.file_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1px #ddd;
+}
+
+.preview {
+    margin-top: 10px;
+}
+
+.status_text {
+    padding: 0 10px;
+}
+
+.success {
+    color: #52ae5a;
+}
+
+.failure {
+    color: #ff0000;
+}
+
+.button {
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    background-color: #5256ad;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
